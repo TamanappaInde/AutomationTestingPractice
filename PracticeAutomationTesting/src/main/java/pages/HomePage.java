@@ -20,4 +20,19 @@ public class HomePage {
 	public void clickMyAccount() {
 		myaccountLink.click();
 	}
+	
+	// click on shop menu
+	@FindBy(xpath="//*[text()='Shop']")
+	private WebElement shopMenu;
+	@FindBy(xpath="//*[text()='Home']")
+	private WebElement homeMenu;
+	public void clickonShopmenu() {
+		shopMenu.click();
+	
+	}
+	public void clickonHomemenu() {
+		homeMenu.click();
+	}
+	
+	
 }
