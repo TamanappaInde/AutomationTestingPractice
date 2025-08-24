@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/TamanappaInde/AutomationTestingPractice.git', branch: 'main'
+                git url: 'https://github.com/TamanappaInde/AutomationTestingPractice.git', branch: 'master'
             }
         }
         stage('Build') {
